@@ -1,0 +1,106 @@
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.top-card{
+    width: 90%;
+    margin: 70px auto;
+    border: none;
+}
+.right_card{
+    width: 350px;
+   
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 auto;
+    
+}
+.card{
+    border: none;
+}
+.dang_nhap{
+    padding: 20px 0;
+    font-size: 19px;
+}
+.check{
+    text-align: left;
+    color: red;
+    line-height: 7px;
+}
+.form-control{
+    width: 95%;
+    margin-left: 10px;
+}
+.dang_ki{
+    padding: 0 8px;
+}
+.choos1{
+    padding: 0;
+    margin: 0 auto;
+}
+.choos{
+    padding: 0;
+}
+.btn-primary{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.img-left{
+    background: url(../img/dangNhap.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    transition: 0.3s;
+    margin: 0;
+    margin-right: 0px;
+    
+}
+.img-right{
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.img-card{
+    width: 129px;
+    height: 35px;
+}
+.facebook{
+    border: 1px solid #0066FF;
+    color: #0066FF;
+    font-size: 17px;
+    width: 158px;
+}
+.google{
+    border: 1px solid #FF0000;
+    color: #FF0000;
+    font-size: 17px;
+    width: 158px;
+
+}
+button.dang_nhap01 {
+    background: #fff !important;
+    border: none;
+    color: #006699 !important;
+}
+button.dang_ki {
+    background: #fff;
+    border: none;
+
+}
+#inputPassword3{
+    display: none;
+}
+#inputPassword4{
+    display: none;
+}
+#have{
+    display: none;
+}
+#have01{
+    display: none;
+}
+#register{
+    display: none;
+}

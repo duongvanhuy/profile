@@ -1,0 +1,94 @@
+.header {
+    border: 1px solid black;
+    width: 100%;
+    padding: 20px !important;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.main-header{
+    padding: 0 40px;
+}
+.row {
+    padding: 20px 0;
+}
+.input_02 {
+    padding: 0 100px;
+}
+.input_03 {
+    padding: 0 100px;
+}
+#edit {
+    justify-content: space-between;
+}
+#search {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+#tr_99 {
+    font-size: 30px;
+    padding-left: 60px;
+    /* width: 30px; */
+}
+#tr_100 {
+    font-size: 30px;
+    padding-left: 15px;
+    /* width: 30px; */
+}
+body{
+    font-size: 12px;
+}
+.menager{
+    border: 1px solid #F8F8FF;
+    /* padding: 5px; */
+    background-color: #F8F8FF;
+    font-size: 13px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#options01{
+    padding: 15px;
+}
+#options02{
+    padding: 15px;
+}
+#options03{
+    padding: 15px;
+}
+select#address {
+    width: 245px;
+    height: 28px;
+}
+input#sdt {
+    width: 245px;
+}
+select#status {
+    width: 245px;
+    height: 28px;
+}
+input#time {
+    width: 245px;
+}
+.itemKhachHang{
+    border: 1px solid;
+    padding: 10px;
+}
+input#search{
+    border-radius: 0.25rem;
+}
+/* thống kê ô tô */
+
+#khachHang{
+    display:  none;
+}
+#DHdaGiao{
+    display:  none;
+    
+}
+#DHdaHuy{
+    display:  none;
+}
+#KhachHang_Mua{
+    display: none;
+}

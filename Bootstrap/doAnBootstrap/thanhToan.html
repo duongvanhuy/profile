@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../owlcarousel/assets/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../owlcarousel/owl.carousel.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../icons-1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="../css/mua-ngay.css">
+    <link rel="stylesheet" type="text/css" href="../css/thanhToan_UaDai.css">
+    <title>Mua ngay sản phẩm</title>
+    <style>
+     .main_banner{
+         font-size: 13px;
+     }
+    </style>
+</head>
+
+<body onload="init()">
+    <!-- header -->
+    <div class="container header">
+        <div class="row main-header">
+            <div class="col-md-2">
+               <a href="Trangchu.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI6Mq1iQ5IbClhfRt9-7VkVRqxABq8bMW5cqzCVGXEJw55cWF887t3Z9KUL3HZLDFKeQ&usqp=CAU"
+                    alt=""></a>
+            </div>
+            <div class="col">
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link" href="mua_ngay.html">Lựa chọn xe</a>
+                                <a class="nav-link" href="thanhToan_UaDai.html">Thanh toán & ưu đãi</a>
+                                <a class="nav-link" href="thanhToan.html"><span class="border-bottom border-3 border-primary">Thanh toán</span> </a>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <span class="icon"><i class="bi bi-person-circle"></i></span>
+                            <span class="dang-nhap">Đăng nhập</span>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </div>
+    <!-- content -->
+    <div class="container-fluid content">
+        <div class="row ">
+            <div class="col-md-9">
+                <div class="banner">
+                    <div class="main_banner">
+                        <p class="text-uppercase">Thông tin khách hàng</p>
+                        <p>Thông tin khách hàng sẽ được đưa vào thỏa thuận hợp đồng. Quý khách vui lòng nhập chính xác
+                            các nội dung dưới đây.</p>
+                        <div class="pt-3">
+                            <div class="row">
+                                <div class="col">
+                                    <label for="hoTen">Họ & tên <span class="text-danger">*</span></label><br><br>
+                                    <label for="CMND">CMND/CCCD <span class="text-danger">*</span></label>
+                                </div>
+                                <div class="col">
+                                    <input type="text" name="" id="hoTen" class="mb-4">
+                                    <div id="checkHoTen"></div>
+                                    <input type="text" name="" id="CMND">
+                                </div>
+
+                                <div class="col">
+                                    <label for="sodienThoai">Số điện thoại <span
+                                            class="text-danger">*</span></label><br><br>
+                                    <label for="email">Email <span class="text-danger">*</span></label>
+
+                                </div>
+                                <div class="col">
+                                    <input type="tel" name="" id="sodienThoai" class="mb-4">
+                                    <input type="text" name="" id="email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="py-3">
+                            <input type="checkbox" name="" id="" value='a'>Tôi cam kết các thông tin khách hàng cung cấp
+                            tại đây hoàn toàn chính xác<br>
+                            <input type="checkbox" name="" id="" value='b'>Tôi đã đọc, hiểu rõ và xác nhận đồng ý với
+                            toàn bộ nội dung <a href="#"> Điều khoản</a> trong
+                            Thỏa Thuận Đặt Cọc trên cũng như Chính Sách Ưu Đãi áp dụng tại thời điểm đặt mua xe ô tô này
+                            trên VinFast Online.<br>
+                            <input type="checkbox" name="" id="" value="c">Tôi đồng ý với các <a href="#">Điều kiện &
+                                Điều khoản</a> của VinFast Online<br>
+                        </div>
+                    </div>
+                </div>
+                <div class="banner">
+                    <div class="main_banner">
+                        <p class="text-uppercase">thanh toán</p>
+                        <p>Để hoàn thành đơn đặt hàng. Quý khách vui lòng thanh toán <span
+                                class="text-primary">50.000.000đ</span>
+                            cho VinFast bằng cách lựa chọn một trong các phương thức thanh toán sau:</p>
+                        <form action="">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="radio" name="thanhtoan" id="">
+                                    Thanh toán bằng thẻ quốc tế Visa, Master, JCB
+                                </div>
+                                <div class="col">
+                                    <input type="radio" name="thanhtoan" id="">
+                                    Thẻ ATM nội địa / Internet Banking ( Miễn phí thanh toán )
+
+                                </div>
+                                <div class="col">
+                                    <input type="radio" name="thanhtoan" id="">
+                                    Chuyển khoản ngân hàng
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <img src="../img/giohang1.png" alt="" style="max-height: 88px">
+                </div>
+                <p class="mauXe" id="mauxe">VINFAST LUX A2.0</p>
+                <!-- xét xem với mỗi mẫu xe gì thì ta có giá xe riêng -->
+                <!-- ở đây ta chỉ làm 1 mẫu xe chung khi có thời gian phát triển thêm -->
+                <div class="row pb-3">
+                    <div class="col">Phiên bản</div>
+                    <div class="col">Màu sắc</div>
+                    <div class="col">Nội thất</div>
+                </div>
+                <!-- <div class="row border-top py-4">
+                    <div class="col">Giá niêm yết</div>
+                    <div class="col" id="giaNiemYet"></div>
+
+                </div>
+                <div class="row pb-4">
+                    <div class="col">Ưu đãi</div>
+                    <div class="col" id="uaDai"></div>
+                </div>
+                <div class="row pb-2">
+                    <div class="col">E-Voucher</div>
+                    <div class="col" id="e-voucher"></div>
+                </div> -->
+                <div class="row border-top py-4">
+                    <div class="col">Giá trị đơn hàng</div>
+                    <div class="col" id="donGia"></div>
+                </div>
+                <button id="datMua" onclick="checkMuaHang()">Đặt mua</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<!-- <script src="../jscript.js/mua_ngay.js"></script> --> -->
+<!-- <script src="../jscript/thanhToan_UuDai.js"></script> -->
+ <script src="../jscript/KhachHangMua.js"></script>
+ <!-- <script src="../jscript/trangThai.js"></script> -->
+ <script src="../jscript/thanhToan.js"></script>

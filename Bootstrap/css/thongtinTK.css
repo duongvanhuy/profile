@@ -1,0 +1,150 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul.navbar-nav.mb-2 {
+    text-transform: uppercase;
+    /* font-weight: 600; */
+    color: #000;
+}
+li.nav-item.dropdown {
+    padding: 0 20px;
+}
+/* svg.bi.bi-person-circle {
+    width: 20px;
+    height: 20px;
+} */
+button.btn.btn-outline-light.mx-4.dang_ki_lai_thu {
+    border: 1px solid #1E90FF;
+    color: #1E90FF;
+    font-weight: 600;
+    padding: 0 20px;
+}
+.card_nth {
+    max-width: 250px;
+    padding: 20px;
+    margin-top: 15px;
+}
+.card_none{
+    width: 92%;
+}
+.btn-primary{
+    color: #000;
+    background-color: #fff;
+     border-color: #fff;
+}
+.main_banner{
+    padding-left: 150px;
+    margin-bottom: 100px;
+}.container-fluid.banner {
+    background: #e5e5e5;
+}
+ /* footer */
+ footer{
+    padding-bottom: 50px;
+  }
+  .main-footer {
+
+    justify-content: space-between;
+  }
+
+  .fs-footer {
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+  .hotline .border {
+    width: 160px;
+    text-align: center;
+  }
+
+  .list-group-item {
+    border: none;
+    padding-top: 0px;
+    padding-left: 0;
+  }
+
+  .menu_footer {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #0099FF;
+    padding: 5px 0;
+  }
+
+  .fw-light {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    line-height: 120%;
+    color:	#777777 ;
+  }
+
+  .border {
+    width: 200px;
+    height: 40px;
+    padding: 5px 10px;
+  }
+
+  .phone_size {
+    /* line-height: 30px; */
+    padding: 20px;
+    
+  }
+
+  .small_phut {
+    font-size: 10px;
+  }
+
+  small {
+    color: #808080;
+  }
+
+  .item_lien_ket {
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 7px;
+  }
+
+  .menu_noi_dung {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+
+  .noi_dung_footer {
+    margin: 30px 0px;
+  }
+  .phone_number{
+    line-height: 0px;
+    padding: 10px 0;
+  }
+  .phut_money{
+    font-size: 10px;
+  }
+  .icon{
+    font-size: 25px;
+    padding: 5px 0;
+  }
+  .kinh_doanh{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  .copy{
+    color: #CCCCCC;
+    font-size: 13px;
+  }
+  .ket_noi{
+    padding: 0;
+    font-size: 16px;
+  }
+  .ket_noi_right{
+    margin: 0 10px;
+  }
+  .item_lien_ket1{
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  /*  */

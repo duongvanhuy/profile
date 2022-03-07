@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="../owlcarousel/assets/owl.theme.default.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../owlcarousel/owl.carousel.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../icons-1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="../css/mua-ngay.css">
+    <link rel="stylesheet" type="text/css" href="../css/thanhToan_UaDai.css">
+    <title>Mua ngay sản phẩm</title>
+</head>
+
+<body>
+    <!-- header -->
+    <div class="container header">
+        <div class="row main-header">
+            <div class="col-md-2">
+               <a href="Trangchu.html"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI6Mq1iQ5IbClhfRt9-7VkVRqxABq8bMW5cqzCVGXEJw55cWF887t3Z9KUL3HZLDFKeQ&usqp=CAU"
+                    alt=""></a>
+            </div>
+            <div class="col">
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link" href="mua_ngay.html">Lựa chọn xe</a>
+                                <a class="nav-link" href="thanhToan_UaDai.html"><span class="border-bottom border-3 border-primary">Thanh toán & ưu đãi</span></a>
+                                <a class="nav-link" href="thanhToan.html">Thanh toán</a>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <span class="icon"><i class="bi bi-person-circle"></i></span>
+                            <span class="dang-nhap">Đăng nhập</span>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    </div>
+    <!-- content -->
+    <div class="container-fluid ">
+        <div class="row ">
+            <div class="col-md-9 content">
+                <div class="banner">
+                    <div class="main_banner">
+                        <p>địa điểm giao xe</p>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label for="tinhThanh">Tỉnh thành <span class="text-danger">*</span></label>
+                                <select name="" id="tinhThanh">
+                                    <option value="Hồ Chí Minh" >Hồ Chí Minh</option>
+                                    <option value="Hà Nội" >Hà Nội</option>
+                                </select>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="quanHuyen">Quận/huyện <span class="text-danger">*</span></label>
+                                <select name="" id="quanHuyen" class="HCM chonHuyen">
+                                    <option value="Quận 2">Quận 2</option>
+                                    <option value="Quận 3">Quận 3</option>
+                                    <option value="Quận 4">Quận 4</option>
+                                    <option value="Quận 5">Quận 5</option>
+                                    <option value="Quận 6">Quận 6</option>
+                                    <option value="Quận 7">Quận 7</option>
+                                    <option value="Quận Bình Thạch">Quận Bình Thạch</option>
+                                    <option value="Quận Tân Bình">Quận Tân Bình</option>
+                                </select>
+                                <select name=""  class="HN chonHuyen">
+                                    <option value="Quận Long Biên">Quận Long Biên</option>
+                                    <option value="Quận Ba Đình">Quận Ba Đình</option>
+                                    <option value="Quận Hoàn Kiếm">Quận Hoàn Kiếm</option>
+                                    <option value="Quận Tây Hồ">Quận Tây Hồ</option>
+                                    <option value="Quận Cầu Giấy">Quận Cầu Giấy</option>
+                                    <option value="Quận Hai Bà trưng">Quận Hai Bà Trưng</option>
+                                    <option value="Quận Hoàng Mai">Quận Hoàng Mai</option>
+                                    <option value="Quận Thanh Xuân">Quận Thanh Xuân</option>
+                                </select>
+                            </div>
+                            <div class="col">
+                                <label for="showroom">Showroom <span class="text-danger">*</span></label>
+                                <select name="" id="showroom" class="HCM01">
+                                    <!-- <option value="0">Lựa chọn</option> -->
+                                    <option value="Showroom Vinfast Bình Thạch">Showroom Vinfast Bình Thạch</option>
+                                   
+                                </select>
+                                <select name="" id="showroom" class="HN01">
+                                    <!-- <option value="0">Lựa chọn</option> -->
+                                    <option value="Showroom Vinfast Long Biên">Showroom Vinfast Long Biên</option>
+                                </select>
+                            </div>
+                        </div>
+                        <p>Thời gian ngày dự kiến giao xe: VinFast sẽ liên hệ lại thời gian giao hàng cụ thể</p>
+                    </div>
+
+                </div>
+                <div class="banner">
+                    <div class="main_banner">
+                        <label for="maGiamGia">Nhập mã giảm giá</label>
+                        <input type="text" name="" id="maGiamGia" placeholder="NHẬP MÃ E-VOUCHER...">
+                        <span>
+                            <div class="btn" id="apDung" onclick="checkGia()">Áp dụng</div>
+                        </span>
+                        <div id="vouCher" class="text-danger"></div>
+                    </div>
+                </div>
+                <div class="banner">
+                    <div class="main_banner">
+                        <label for="phuongThucTT">Phương thức thanh toán</label>
+                        <input type="radio" name="thanhToan" id="">Trả thẳng
+                        <input type="radio" name="thanhToan" id="">Trả góp "Bảo lãnh lãi suất vượt trội"
+                    </div>
+                </div>
+                <div class="banner">
+                    <div class="main_banner">
+                        <p>Chính sách giá</p>
+                        <div class="slideshow-container">
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">1 / 3</div>
+                                <img src="../img/chinh-sach-uu-dai-khac_1.jpg" style="width:100%">
+                                <div class="text">Caption Text</div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">2 / 3</div>
+                                <img src="../img/LuxSA20-TraThang.jpg" style="width:100%">
+                                <div class="text">Caption Two</div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">3 / 3</div>
+                                <img src="../img/LuxSA20-TraThang.jpg" style="width:100%">
+                                <div class="text">Caption Three</div>
+                            </div>
+
+                            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                        </div>
+                        <br>
+
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div>
+                    <img src="../img/giohang1.png" alt="" style="max-height: 88px">
+                </div>
+                <p class="mauXe" id="mauxe">VINFAST LUX A2.0</p>
+                <!-- xét xem với mỗi mẫu xe gì thì ta có giá xe riêng -->
+                <!-- ở đây ta chỉ làm 1 mẫu xe chung khi có thời gian phát triển thêm -->
+                <div class="row pb-3">
+                    <div class="col">Phiên bản</div>
+                    <div class="col">Màu sắc</div>
+                    <div class="col">Nội thất</div>
+                </div>
+                <div class="row border-top py-4">
+                    <div class="col" >Giá niêm yết</div>
+                    <div class="col" id="giaNiemYet">1.552.000.000</div>
+                </div>
+                <div class="row pb-4">
+                    <div class="col">Ưu đãi</div>
+                    <div class="col" id="uaDai">
+                        425.925.000</div>
+                </div>
+                <div class="row pb-2">
+                    <div class="col">E-Voucher</div>
+                    <div class="col" id="e-voucher"></div>
+                </div>
+                <div class="row border-top py-4">
+                    <div class="col">Giá trị đơn hàng</div>
+                    <div class="col" id="donGia">
+                        1.126.075.000</div>
+                </div>
+                <button id="datMua" onclick="addSanPham()" >Tiếp theo</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<!-- <script src="../jscript.js/mua_ngay.js"></script> -->
+<!-- <script src="../jscript/thanhToan_UuDai.js"></script> -->
+<script src="../jscript/thanhToan_UuDai.js"></script>
+<script src="../jscript/trangThai.js"></script>

@@ -1,0 +1,272 @@
+ /* header */
+ .navbar-expand-lg {
+   padding-top: 0;
+   padding-left: 35px;
+   padding-bottom: 0;
+ }
+ .vinFast{
+   text-transform: uppercase;
+ }
+ .dropdown-menu{
+   font-size: 20px;
+   text-transform: uppercase;
+ }
+ .dropdown-item{
+   font-size: 16px;
+ }
+ .dropdown-toggle::after{
+   content: none;
+ }
+ .d-flex{
+  margin-right: 20px;
+ }
+ .iconTop{
+   font-size: 18px;
+ }
+ i.fa.fa-user {
+  color: #000;
+}
+li.nav-item.dropdown {
+  padding: 0 20px;
+  font-weight: 600;
+}
+a#navbarScrollingDropdown {
+  color: black;
+}
+a.nav-link.disabled {
+  color: black !important;
+}button.btn.btn-primary {
+  background-color: none !important;
+  background-color: #fff;
+  color: #000;
+  border: none;
+}
+    .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500px;
+}
+ 
+ .navbar-light .d-flex .dang_ki_lai_thu {
+    border-color: #0099FF;
+    color: #0099FF;
+    margin-right: 15px;
+    padding: 0px 30px;
+  }
+  ul.list-style_none {
+    list-style: square;
+    padding: 30px;
+}
+.list-style_none li {
+  padding: 15px;
+  border-bottom: 1px solid;
+}
+.banner{
+    /* background: url(https://shop.vinfastauto.com/on/demandware.static/Sites-app_vinfast_vn-Site/-/default/dw9195eb11/images/vfast/red.png); */
+    /* background-size: 100% auto; */
+    /* background-repeat: no-repeat; */
+    /* background-position: top; */
+    /* background-size: cover; */
+    background: #DDDDDD;
+    height: auto;
+    transition: 0.3s;
+    padding: 80px 20px 80px 50px;
+    margin: 0;
+    margin-right: 0px;
+}
+.phien_ban_xe{
+  text-align: center;
+}
+.f-phien_ban_xe{
+  font-size: 35px;
+  font-weight: 100;
+  letter-spacing: 15px;
+  color: #AAAAAA;
+  padding-bottom: 0;
+}
+.phien_ban_xe .btn{
+  border: 1px solid !important;
+  margin: 0 5px;
+}
+.right_card{
+    width: 400px;
+    position: relative;
+    right: 0;
+    float: right;
+    font-size: 14px;
+    font-weight: 600;
+}
+.dang_ki{
+  margin: 0 3px;
+}
+.lai_thu{
+  font-size: 20px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+ /* footer */
+ footer{
+    padding-bottom: 50px;
+  }
+  .main-footer {
+
+    justify-content: space-between;
+  }
+
+  .fs-footer {
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+  .hotline .border {
+    width: 160px;
+    text-align: center;
+  }
+
+  .list-group-item {
+    border: none;
+    padding-top: 0px;
+    padding-left: 0;
+  }
+
+  .menu_footer {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #0099FF;
+    padding: 5px 0;
+  }
+
+  .fw-light {
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    line-height: 120%;
+    color:	#777777 ;
+  }
+
+  .border {
+    width: 200px;
+    height: 40px;
+    padding: 5px 10px;
+  }
+
+  .phone_size {
+    padding: 20px;
+    
+  }
+
+  .small_phut {
+    font-size: 10px;
+  }
+
+  small {
+    color: #808080;
+  }
+
+  .item_lien_ket {
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 7px;
+    color: #000;
+  }
+
+  .menu_noi_dung {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+
+  .noi_dung_footer {
+    margin: 30px 0px;
+  }
+  .phone_number{
+    line-height: 0px;
+    padding: 10px 0;
+  }
+  .phut_money{
+    font-size: 10px;
+  }
+  .icon{
+    font-size: 25px;
+    padding: 5px 0;
+  }
+  .kinh_doanh{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+  .copy{
+    color: #CCCCCC;
+    font-size: 13px;
+  }
+  .ket_noi{
+    padding: 0;
+  }
+  .hotline{
+    font-size: 14px;
+  }
+  .item_lien_ket1{
+    border-radius: 50%;
+    border: 1px solid;
+    padding: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  a.item_lien_ket1 {
+    color: #000;
+}
+@media only screen and (max-width: 990px) {
+  .navbar-collapse.collapse.show{
+    background: black;
+    color: #fff;
+    z-index: 1000;
+    /* display: flex; */
+    position: fixed;
+    top: 60px;
+    width: 90%;
+    /* visibility: visible; */
+    height: 370px;
+    /* margin-left: 0; */
+    right: 25px;
+  }
+  header{
+    position: fixed;
+    z-index: 2000;
+    background: #fff;
+    width: 100%;
+  }
+  a#navbarScrollingDropdown{
+    color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid;
+  }
+  a.nav-link.disabled{
+    color: #fff !important;
+    padding: 20px;
+    border-bottom: 1px solid;
+  }
+  li.nav-item {
+    padding: 0 20px;
+  }
+  .navbar-expand-lg .navbar-nav  {
+    flex-direction: column;
+  }
+  button.btn.btn-primary {
+    display: none;
+}
+span.py-1.px-3.iconTop {
+  display: none;
+}
+button.btn.btn-outline-light.dang_ki_lai_thu {
+  width: 100%;
+  background: #fff;
+  padding: 13px;
+  margin: 10px;
+}
+.d-flex {
+  margin: 0 10px;
+}
+}
+  

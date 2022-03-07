@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/khachHang.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 menager">
+                <div class="header-banner fw-bold">
+                    <div id="data_main" class="text-primary text-uppercase" onclick="turn_on(1)"><span><i class="fa fa-folder-open-o" aria-hidden="true"></i></span> Dữ liệu gốc</div>
+                    <div id="options01">
+                        <p>Kế hoạch lựa chọn nhà thầu</p>
+                        <p>Thông tin đấu thầu</p>
+                        <p>Mở/đóng/chấm thầu</p>
+                        <p>kết quả đấu thầu</p>
+                        <p>Các bên liên quan</p>
+                    </div>
+                    <div id="bitdata" class="text-primary text-uppercase" onclick="turn_on(2)"><span><i class="fa fa-folder-open-o" aria-hidden="true"></i></span> Thống kê bitdata</div>
+                    <div id="options02">
+                        <p>Quản lý danh mục sản phẩm</p>
+                        <a href="thongKeOto.html"> <p>Báo cáo sản phẩm bán chạy</p></a>
+                        <a href="trangThaiMua.html">
+                            <p>Trạng thái đơn hàng</p>
+                        </a>
+                        <p>Biểu đồ thống kê</p>
+                    </div>
+                    <div id="menagerment" class="text-primary text-uppercase" onclick="turn_on(3)"><span><i class="fa fa-folder-open-o" aria-hidden="true"></i></span> Quản trị</div>
+                    <div id="options03">
+                        <a href="taikhoanKH.html"> <p>Người dùng</p></a>
+                        <div class="show_Nguoi_dung">
+                            <a href="khachHang.html"> <p> Đăng kí lái xe</p></a>
+                            <p>Quản lý danh mục ô tô</p>
+                        </div>
+                        <p>Chức năng hệ thống</p>
+                        <p>Danh mục dùng chung</p>
+                        <p>Từ khóa</p>
+                        <a href="Trangchu.html"><p>Quay lại trang chủ</p></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 main-header">
+                <!--  chức năng  -->
+                <div class="row header">
+                    <!-- options -->
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="name"><b>Tên khách hàng</b></label>
+                        </div>
+
+                        <div class="row">
+                            <label for="email"><b>Email</b></label>
+                        </div>
+                        <div class="row">
+                            <label for="sdt"><b>Số điện thoại</b></label>
+                        </div>
+
+                    </div>
+                    <!-- /options -->
+                    <!-- input -->
+                    <div class="col">
+                        <div class="row"><input type="text" id="name" size="31"></div>
+                        <div class="row"><input type="text" name="" id="email" size="31"></div>
+                        <div class="row"><input type="tel" id="sdt" min="111111111" max="999999999"></div>
+
+                    </div>
+                    <div class="col-md-2">
+                        <div class="row">
+                            <label for="address"><b>Địa chỉ</b></label>
+                        </div>
+                        <div class="row">
+                            <label for="status"><b>Mẫu xe</b></label>
+                        </div>
+                        <div class="row">
+                            <label for="time"><b>Thời gian</b></label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <select name="" id="address">
+                                <option value="Hà Nội">Hà Nội</option>
+                                <option value="TP.Hồ Chí Minh">TP.Hồ Chí Minh</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <select name="" id="status">
+                                <option value="VINFAST SA2.0">VINFAST SA2.0</option>
+                                <option value="VINFAST A2.0">VINFAST A2.0</option>
+                                <option value="VINFAST LUX 2.0">VINFAST LUX 2.0</option>
+                                <option value="VINFAST FADIL">VINFAST FADIL</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <input type="date" name="" id="time">
+                        </div>
+                    </div>
+                    <!-- /input -->
+                </div>
+                <div class="row" id="edit">
+                    <div class="btn btn-success" id="addkhachHangs" onclick="addkhachHang()">Thêm khách hàng</div>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                            data-toggle="dropdown" aria-expanded="false">
+                            Sắp xếp thông tin
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                            <li><a class="dropdown-item active" href="#" onclick="sortHeight()" >Sắp xếp cao => thấp</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#" onclick="sortLow()" >Sắp xếp thấp => cao</a></li>
+                            <li><a class="dropdown-item" href="#" onclick='sortABC()'>Sắp xếp theo tên</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <input itemid="search" type="text" name="" id="search" onkeyup="search()"
+                        placeholder="tìm kiếm khách hàng...">
+                </div>
+                <!-- /chức năng -->
+                <!-- </form> -->
+                <div class="row  itemKhachHang">
+                    <h3><span class="text-danger"><i class="fa fa-home" aria-hidden="true"></i></span> danh sách người dùng</h3>
+                    <table class="table table-sm table-striped table-hover table-bordered">
+                        <thead>
+                            <tr>
+                                <th>#MÃ SỐ</th>
+                                <th>HỌ TÊN</th>
+                                <th>SỐ ĐIỆN THOẠI</th>
+                                <th>EMAIL</th>
+                                <th>ĐỊA CHỈ</th>
+                                <th>MẪU XE</th>
+                                <th>THỜI GIAN</th>
+                                <th>CHỈNH SỬA</th>
+                                <th>XÓA</th>
+                            </tr>
+                        </thead>
+                        <tbody id="after_run">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- <div class="container"> -->
+
+            <!-- </div> -->
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="../jscript/khachHang.js"></script>
+<script src="../jscript/menagerment.js"></script>
